@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
-- Added `fabric run --module` (`-m`) to launch Python modules and packages with relative imports
+- Added `fabric run --module` (`-m`) to launch Python modules and packages with relative imports ([#21964](https://github.com/Lightning-AI/pytorch-lightning/pull/21964))
 
 - Added `using_sparse_model` and `sparse_cuda_acceleration_factor` parameters to `Throughput` so MFU defaults to the dense peak and opts into the sparse peak explicitly ([#21743](https://github.com/Lightning-AI/pytorch-lightning/pull/21743))
 
